@@ -74,6 +74,11 @@ class App extends React.Component {
     render() {
         return (
             <section className="main">
+                <div className="stars_wrap">
+                    <div id="stars"></div>
+                    <div id="stars2"></div>
+                    <div id="stars3"></div>
+                </div>
                 <div className="content">
                     <div className="info">
                         <Info/>
@@ -91,6 +96,7 @@ class App extends React.Component {
                                  error={this.state.error}/>
                     </div>
                 </div>
+                <Contacts/>
             </section>
         )
     }
