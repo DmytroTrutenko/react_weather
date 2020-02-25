@@ -1,14 +1,14 @@
 import React from "react"
+import logo from "../assets/weather.png";
 
-class Info extends React.Component{
-    render() {
-        return(
-            <div>
-                <h2>Погодноe приложение</h2>
-                <p>Узнайте погоду</p>
-            </div>
-        )
-    }
-}
+const Info = () => (
+    <div>
+        {/*<div>*/}
+        {/*    <img src={logo} alt=""/>*/}
+        {/*</div>*/}
+        <h1>Weather app</h1>
+        <p>Find out the weather</p>
+    </div>
+);
 
 export default Info
